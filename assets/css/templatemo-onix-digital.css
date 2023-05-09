@@ -2068,7 +2068,7 @@ responsive
   .my-grid{
     display: block !important;
   }
-.header-text{
+.owl-banner{
   margin-bottom: 2rem !important;
 }
 }
@@ -2076,7 +2076,7 @@ responsive
   .my-grid{
     display: block !important;
   }
-  .header-text{
+  .owl-banner{
     margin-bottom: 3rem !important;
   }
   
@@ -2099,7 +2099,7 @@ responsive
     width: 400px !important;
   }
 
-  .header-text{
+  .owl-banner{
     margin-bottom: 1.1rem !important;
   }
   
