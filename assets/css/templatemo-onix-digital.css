@@ -2068,15 +2068,18 @@ responsive
   .my-grid{
     display: block !important;
   }
-  h1, h2, h3{
-    font-size: 20px !important;
-  }
-
+.header-text{
+  margin-bottom: 2rem !important;
+}
 }
 @media (max-width: 400px){
   .my-grid{
     display: block !important;
   }
+  .header-text{
+    margin-bottom: 3rem !important;
+  }
+  
 }
 
 @media (min-width: 700px){
@@ -2095,6 +2098,11 @@ responsive
   .left-image img{
     width: 400px !important;
   }
+
+  .header-text{
+    margin-bottom: 1.1rem !important;
+  }
+  
 
 }
 @media (min-width: 850px){
