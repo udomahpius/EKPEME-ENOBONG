@@ -2062,6 +2062,7 @@ responsive
 @media(min-width:200px){
   .height{
     height: 100% !important;
+    margin-bottom: 30% !important;
   }
   
 }
