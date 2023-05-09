@@ -2071,6 +2071,9 @@ responsive
 .my-margin{
   margin-bottom: 6rem !important;
 }
+.owl-banner{
+  height: 100% !important;
+}
 }
 @media (max-width: 400px){
   .my-grid{
