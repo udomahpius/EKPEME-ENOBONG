@@ -2059,6 +2059,12 @@ responsive
     margin-bottom: 0px;
   }
 }
+@media(min-width:200px){
+  .height{
+    height: 100% !important;
+  }
+  
+}
 @media (min-width: 350px){
   .tables-left-dec img, .tables-right-dec img{
     height: 100% !important;
@@ -2070,9 +2076,6 @@ responsive
   }
 .my-margin{
   margin-bottom: 6rem !important;
-}
-.owl-banner{
-  height: 100% !important;
 }
 }
 @media (max-width: 400px){
