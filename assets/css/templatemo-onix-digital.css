@@ -2069,7 +2069,7 @@ responsive
     display: block !important;
   }
 .my-margin{
-  margin-bottom: 2rem !important;
+  margin-bottom: 6rem !important;
 }
 }
 @media (max-width: 400px){
@@ -2077,7 +2077,7 @@ responsive
     display: block !important;
   }
   .my-margin{
-    margin-bottom: 3rem !important;
+    margin-bottom: 4rem !important;
   }
   
 }
