@@ -1181,12 +1181,22 @@ Portfolio
 .our-portfolio {
   margin: 0px 15px;
 }
-
 .our-portfolio .item .thumb {
   position: relative;
-  height: 50vh !important;
+  height: 60vh !important;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
-  padding: 1.3rem 1.1rem;
+  padding: 1.3rem 1.5rem 7rem 1.5rem !important;
+  text-align: center !important;
+  width: 100% !important;
+
+}
+.our-portfolio .item .thumb .p-header{
+  text-align: center !important;
+  font-size: 18px !important;
+}
+.our-portfolio .item{
+  margin-bottom: 3rem !important;
+
 }
 
 .our-portfolio .item .thumb:hover .hover-effect {
@@ -1203,36 +1213,40 @@ Portfolio
   background-repeat: no-repeat;
   background-size: cover;
   transition: all .5s;
-  bottom: -240px;
+  bottom: -350px;
   right: 0;
   width: 100%;
-  height: 310px;
+  height: 100%;
+  padding-top: .4rem !important;
   
 }
 
 .our-portfolio .item .hover-effect .inner-content {
   position: absolute;
   right: 30px;
-  bottom: 30px;
+  bottom: 200px;
   text-align: center;
 }
 
 .our-portfolio .item .hover-effect .inner-content h4 {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 700;
   color: #3B566E !important;
   margin-bottom: 15px;
-  margin-top: 5px;
+  margin-top: 2px;
   text-decoration: underline;
 }
+.inner-content span{
+  font-size: 14px !important;
+}
 .our-portfolio .item .hover-effect .inner-content h4:hover{
-padding: .5rem .4rem !important;
+padding: .4rem .4rem !important;
 font-size: 1.1rem !important;
 transition: all ease-in-out 0.5s !important;
 }
 .icon-open-div{
   text-align: center;
-  padding-top: 1.1rem !important;
+  padding-top: .4rem !important;
 }
 .icon-open-div i:hover{
   background: #3B566E;
@@ -1986,7 +2000,6 @@ responsive
 --------------------------------------------- 
 */
 
-
 @media (max-width: 1240px) {
   .main-banner::before {
     width: 640px;
@@ -2059,13 +2072,35 @@ responsive
     margin-bottom: 0px;
   }
 }
-@media(min-width:200px){
+@media(min-width:250px){
   .height{
     height: 100% !important;
-    margin-bottom: 30% !important;
+    padding: 1.5rem .2rem !important;
   }
-  
 }
+@media(max-width: 700px){
+  h1{
+    font-size: 18px !important;
+  }
+  h2{
+    font-size: 18px !important;
+  }
+span{
+  font-size: 18px !important;
+}
+}
+@media(min-width: 700px){
+  h1{
+    font-size: 20px !important;
+  }
+  h2{
+    font-size: 20px !important;
+  }
+span{
+  font-size: 20px !important;
+}
+}
+
 @media (min-width: 350px){
   .tables-left-dec img, .tables-right-dec img{
     height: 100% !important;
@@ -2075,16 +2110,10 @@ responsive
   .my-grid{
     display: block !important;
   }
-.my-margin{
-  margin-bottom: 6rem !important;
-}
 }
 @media (max-width: 400px){
   .my-grid{
     display: block !important;
-  }
-  .my-margin{
-    margin-bottom: 4rem !important;
   }
   
 }
@@ -2093,9 +2122,6 @@ responsive
   .my-grid{
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
-  }
-  .about .container .row .left-image img{
-    background: url(/main-image/Ekpeme-picz-1-removebg-preview.png) !important;
   }
   .my-grid div{
     padding:1.1rem 1.2rem  !important;
@@ -2106,8 +2132,14 @@ responsive
     width: 400px !important;
   }
 
-  .my-margin{
-    margin-bottom: 1.1rem !important;
+  .our-portfolio .item .thumb {
+    position: relative;
+    height: 70vh !important;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding: 1.3rem 2rem 7rem 2rem !important;
+    text-align: center !important;
+    width: 100% !important;
+  
   }
   
 
@@ -2145,7 +2177,7 @@ responsive
   }
   .main-banner .item .down-buttons .main-blue-button {
     margin-right: 0px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
   .main-banner .item .down-buttons .call-button a {
     margin-left: 0px;
