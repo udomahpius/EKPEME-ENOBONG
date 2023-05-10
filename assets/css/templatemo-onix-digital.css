@@ -1039,7 +1039,7 @@ Services Style
   margin: 15px;
   border-radius: 20px;
   background-color: #fff;
-  padding: 30px;
+  padding-top: 5rem !important;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.05);
 }
 
@@ -1143,6 +1143,18 @@ About
 
 .padding-top{
   padding-top: 1.2rem;
+}
+.mobile-view{
+  display: none;
+}
+@media(max-width:600px){
+  .mobile-view{
+    display: block;
+  }
+  .window-view{
+    display: none;
+  }
+
 }
 /* 
 ---------------------------------------------
@@ -1888,7 +1900,7 @@ footer .footer-item h4 {
 }
 
 footer .about .logo img {
-  width: 89px;
+  width: 150px;
   margin-bottom: 30px;
 }
 
@@ -1907,15 +1919,14 @@ footer .about ul li {
 }
 
 footer .about ul li a img{
-  width: 32px;
+  width: 40px;
   text-align: center;
   display: inline-block;
   line-height: 32px;
-  font-size: 15px;
 }
 
 footer .about ul li a img:hover {
-  width: 42px;
+  width: 50px;
   transition: all ease-in-out 0.5s;
 
 }
