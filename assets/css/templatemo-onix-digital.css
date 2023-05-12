@@ -2161,6 +2161,11 @@ span{
   font-size: 20px !important;
 }
 }
+.home-grid div{
+  width: 100% !important;
+  height: 100% !important;
+  padding-bottom: 1.5rem !important;
+}
 
 @media (max-width: 350px){
   .my-grid, .home-grid{
@@ -2184,11 +2189,6 @@ span{
     grid-template-columns:repeat(2, 1fr) !important;
   }
 
-}
-.home-grid div{
-  width: 100% !important;
-  height: 100% !important;
-  padding-bottom: 1.5rem !important;
 }
 
 
