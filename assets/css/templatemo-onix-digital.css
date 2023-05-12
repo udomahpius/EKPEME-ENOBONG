@@ -898,7 +898,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(/main-image/Ekpeme-picz-1-removebg-preview.png);
+  background-image: url(/main-image/about-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -988,6 +988,76 @@ Banner Style
   color: #ff685f;
   border-bottom: 3px solid #ff685f;
 }
+
+/* 
+---------------------------------------------
+About
+--------------------------------------------- 
+*/
+
+.about-us {
+  margin-top: 0px;
+  padding-top: 120px;
+}
+
+.about-us .left-image {
+  margin-right: 30px;
+}
+.about-us .left-image img{
+  border-radius: 90rem;
+
+}
+
+.about-us .section-heading h2 {
+  margin-right: 60px;
+}
+
+.about-us .section-heading p {
+  margin-top: 50px;
+}
+
+.about-us .fact-item .icon {
+  width: 45px;
+  height: 45px;
+}
+.about-us .fact-item .icon i{
+  width: 45px;
+  height: 45px;
+  color: #03a4ed;
+  font-size: 3rem;
+}
+
+.about-us .fact-item {
+  margin-top: 45px;
+}
+
+.about-us .fact-item .count-digit {
+  font-size: 48px;
+  font-weight: 700;
+  color: #2a2a2a;
+  margin-top: 5px;
+}
+
+.about-us .fact-item .count-title {
+  font-size: 15px;
+  color: #ff695f;
+}
+
+.about-us .fact-item p {
+  margin-top: 2px;
+  padding-top: 8px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.padding-top{
+  padding-top: 1.2rem;
+}
+.mobile-view{
+  display: none;
+}
+
 
 
 /* 
@@ -1083,79 +1153,6 @@ Services Style
 }
 
 
-/* 
----------------------------------------------
-About
---------------------------------------------- 
-*/
-
-.about-us {
-  margin-top: 0px;
-  padding-top: 120px;
-}
-
-.about-us .left-image {
-  margin-right: 30px;
-}
-
-.about-us .section-heading h2 {
-  margin-right: 60px;
-}
-
-.about-us .section-heading p {
-  margin-top: 50px;
-}
-
-.about-us .fact-item .icon {
-  width: 45px;
-  height: 45px;
-}
-.about-us .fact-item .icon i{
-  width: 45px;
-  height: 45px;
-  color: #03a4ed;
-  font-size: 3rem;
-}
-
-.about-us .fact-item {
-  margin-top: 45px;
-}
-
-.about-us .fact-item .count-digit {
-  font-size: 48px;
-  font-weight: 700;
-  color: #2a2a2a;
-  margin-top: 5px;
-}
-
-.about-us .fact-item .count-title {
-  font-size: 15px;
-  color: #ff695f;
-}
-
-.about-us .fact-item p {
-  margin-top: 2px;
-  padding-top: 8px;
-  border-bottom: 1px solid #eee;
-  font-size: 15px;
-  font-weight: bolder;
-}
-
-.padding-top{
-  padding-top: 1.2rem;
-}
-.mobile-view{
-  display: none;
-}
-@media(max-width:600px){
-  .mobile-view{
-    display: block;
-  }
-  .window-view{
-    display: none;
-  }
-
-}
 /* 
 ---------------------------------------------
 Portfolio
@@ -1820,18 +1817,69 @@ contact
   line-height: 25px;
   text-transform: none;
 }
+.section-heading h2{
+  text-align: center !important;
+}
+#map img{
+  border-radius: 90rem !important;
+}  
 
-form#contact {
-  margin-left: -100px;
-  position: relative;
-  z-index: 2;
-  background-image: url(/main-image/home-bg-8.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  /* box-shadow: 0px 0px 15px rgba(0,0,0,0.1); */
-  padding: 60px 120px;
-  /* border-radius: 20px; */
+@media(max-width:250px){
+  #map img{
+    width: 100% !important;
+  }  
+
+}
+@media(min-width:250px){
+  #map img{
+    width: 300px !important;
+  }  
+}
+@media(min-width:450px){
+  #map img{
+    width: 380px !important;
+  }  
+}
+@media(min-width:700px){
+  #map img{
+    width: 420px !important;
+  }  
+}
+
+
+
+@media(max-width:450px){
+  form#contact {
+    margin-left: -100px;
+    position: relative;
+    z-index: 2;
+    background-image: url(/main-image/home-bg-8.jpg) !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100% !important;
+    /* box-shadow: 0px 0px 15px rgba(0,0,0,0.1); */
+    padding: 60px 120px;
+    /* border-radius: 20px; */
+  }
+  
+}
+
+@media(min-width:450px){
+  form#contact {
+    margin-left: -100px;
+    position: relative;
+    z-index: 2;
+    background-image:none !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100% !important;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    padding: 60px 120px;
+    border-radius: 20px;
+  }
+  
 }
 
 form#contact input {
@@ -2135,14 +2183,6 @@ span{
   }
 
 }
-@media (min-width: 800px){
-  .home-grid{
-    display: grid !important;
-    grid-template-columns:repeat(3, 1fr) !important;
-  }
-  
-
-}
 .home-grid div{
   width: 100% !important;
   height: 100% !important;
@@ -2153,10 +2193,19 @@ span{
 @media (min-width: 700px){
   .my-grid{
     display: grid !important;
-    grid-template-columns:repeat(3, 1fr) !important;
+    grid-template-columns:repeat(2, 1fr) !important;
   }
 
 }
+@media (min-width: 850px){
+  .home-grid{
+    display: grid !important;
+    grid-template-columns:repeat(3, 1fr) !important;
+  }
+  
+
+}
+
 @media (min-width: 900px){
   .my-grid{
     display: grid !important;
@@ -2263,4 +2312,7 @@ span{
   .contact-us .info span {
     margin-bottom: 20px;
   }
+}
+.my-grid div{
+  width: 100% !important;
 }
