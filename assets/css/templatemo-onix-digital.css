@@ -1207,7 +1207,9 @@ Portfolio
   margin-bottom: 3rem !important;
 
 }
-
+.item span{
+  font-size: 18px !important;
+}
 .our-portfolio .item .thumb:hover .hover-effect {
   bottom: 30px;
 }
