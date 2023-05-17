@@ -1227,15 +1227,15 @@ Portfolio
   bottom: -350px;
   right: 0;
   width: 100%;
-  height: 150px;
-  padding-top: .4rem !important;
+  height: 100%;
+  padding-top: 2px !important;
   
 }
 
 .our-portfolio .item .hover-effect .inner-content {
   position: absolute;
   right: 30px;
-  bottom: 200px;
+  bottom: -200px;
   text-align: center;
 }
 
