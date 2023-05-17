@@ -1247,7 +1247,7 @@ Portfolio
   }
    
 }
-@media(min-width:720px){
+/* @media(min-width:720px){
   .our-portfolio .item .hover-effect .inner-content {
     position: absolute;
     right: 30px;
@@ -1255,7 +1255,7 @@ Portfolio
     text-align: center;
   }
 
-}
+} */
 @media(min-width:1500px){
   .our-portfolio .item .hover-effect .inner-content {
     position: absolute;
