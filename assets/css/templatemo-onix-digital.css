@@ -1256,7 +1256,7 @@ Portfolio
   }
 
 } */
-@media(min-width:900px){
+@media(min-width:1500){
   .our-portfolio .item .hover-effect .inner-content {
     position: absolute;
     right: 30px;
