@@ -1256,13 +1256,29 @@ Portfolio
   }
 
 } */
-@media(min-width:1500px){
+@media(min-width:900px){
   .our-portfolio .item .hover-effect .inner-content {
     position: absolute;
     right: 30px;
-    bottom:400px !important;
+    bottom:200px !important;
+    top: 500px !important;
     text-align: center;
   }
+  .our-portfolio .item .hover-effect {
+    position: absolute;
+    background-image: url(../../main-image/home-bg-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all .5s;
+    bottom: -750px;
+    right: 0;
+    width: 100%;
+    height:100%;
+    padding-top: 1px !important;
+    
+  }
+  
+
 
 }
 
