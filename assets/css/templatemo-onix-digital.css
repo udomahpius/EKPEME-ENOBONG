@@ -1238,7 +1238,15 @@ Portfolio
   bottom: 280px;
   text-align: center;
 }
-
+@media(max-width:720px){
+  .our-portfolio .item .hover-effect .inner-content {
+    position: absolute;
+    right: 30px;
+    bottom: 180px !important;
+    text-align: center;
+  }
+   
+}
 .our-portfolio .item .hover-effect .inner-content h4 {
   font-size: 17px;
   font-weight: 700;
