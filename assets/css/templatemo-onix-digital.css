@@ -1260,8 +1260,8 @@ Portfolio
   .our-portfolio .item .hover-effect .inner-content {
     position: absolute;
     right: 30px;
-    bottom:200px !important;
-    top: 500px !important;
+    /* bottom:200px !important;
+    top: 500px !important; */
     text-align: center;
   }
   .our-portfolio .item .hover-effect {
