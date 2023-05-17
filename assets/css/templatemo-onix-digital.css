@@ -1244,20 +1244,20 @@ Portfolio
   font-weight: 700;
   color: #3B566E !important;
   margin-bottom: 15px;
-  margin-top: 2px;
+  margin-top:0 !important;
   text-decoration: underline;
 }
 .inner-content span{
   font-size: 14px !important;
 }
 .our-portfolio .item .hover-effect .inner-content h4:hover{
-padding: .4rem .4rem !important;
+padding: .1rem .4rem !important;
 font-size: 1.1rem !important;
 transition: all ease-in-out 0.5s !important;
 }
 .icon-open-div{
   text-align: center;
-  padding-top: .4rem !important;
+  padding-top: .1rem !important;
 }
 .icon-open-div i:hover{
   background: #3B566E;
@@ -1281,7 +1281,7 @@ transition: all ease-in-out 0.5s !important;
 }
 .p-header{
   color: #3B566E !important;
-  padding: .3rem 1.2rem !important;
+  padding: .1rem 1.2rem !important;
   text-align: center !important;
 }
 /* .our-portfolio .item .thumb img {
