@@ -1235,7 +1235,7 @@ Portfolio
 .our-portfolio .item .hover-effect .inner-content {
   position: absolute;
   right: 30px;
-  bottom: -200px;
+  bottom: 400px;
   text-align: center;
 }
 
