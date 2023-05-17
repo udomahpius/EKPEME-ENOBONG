@@ -1251,21 +1251,21 @@ Portfolio
   .our-portfolio .item .hover-effect .inner-content {
     position: absolute;
     right: 30px;
-    bottom: -190px !important;
+    bottom: 190px !important;
     text-align: center;
   }
 
 }
-/* @media(min-width:1600px){
+@media(min-width:1600px){
   .our-portfolio .item .hover-effect .inner-content {
     position: absolute;
     right: 30px;
-    bottom: 290px !important;
+    bottom: 500px !important;
     text-align: center;
   }
 
 }
- */
+
 .our-portfolio .item .hover-effect .inner-content h4 {
   font-size: 17px;
   font-weight: 700;
